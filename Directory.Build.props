@@ -13,8 +13,13 @@
         <Company>SharpClaw</Company>
         <RepositoryUrl>https://github.com/mkn8rn/SharpClaw.ProviderIntegrations</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
-        <PackageLicenseExpression>AGPL-3.0</PackageLicenseExpression>
+        <PackageLicenseExpression>AGPL-3.0-only</PackageLicenseExpression>
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
         <NoWarn>$(NoWarn);NU1507</NoWarn>
     </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="$(MSBuildThisFileDirectory)README.md" Pack="true" PackagePath="\" Visible="false" />
+    </ItemGroup>
 </Project>

@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <PackageId>SharpClaw.Providers.Common</PackageId>
+        <Description>Shared SharpClaw provider client, parameter, capability, credential, and plugin helpers.</Description>
+        <PackageTags>SharpClaw;providers;ai</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="SharpClaw.Contracts" />
+    </ItemGroup>
+</Project>

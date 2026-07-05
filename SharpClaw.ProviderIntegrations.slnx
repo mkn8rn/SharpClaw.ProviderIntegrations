@@ -1,2 +1,9 @@
 <Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SharpClaw.Modules.Providers.OpenAICompatible/SharpClaw.Modules.Providers.OpenAICompatible.csproj" />
+    <Project Path="src/SharpClaw.Providers.Common/SharpClaw.Providers.Common.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/SharpClaw.ProviderIntegrations.Tests/SharpClaw.ProviderIntegrations.Tests.csproj" />
+  </Folder>
 </Solution>
