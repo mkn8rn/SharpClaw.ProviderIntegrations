@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <PackageId>SharpClaw.Providers.LocalCommon</PackageId>
+        <Description>Shared SharpClaw helpers for local provider model downloads, Hugging Face GGUF resolution, and path validation.</Description>
+        <PackageTags>SharpClaw;providers;local;huggingface;gguf;ai</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" />
+        <PackageReference Include="Microsoft.Extensions.Http" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+        <PackageReference Include="SharpClaw.Contracts" />
+    </ItemGroup>
+</Project>

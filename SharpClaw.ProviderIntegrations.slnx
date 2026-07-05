@@ -1,7 +1,12 @@
 <Solution>
   <Folder Name="/src/">
+    <Project Path="src/SharpClaw.Modules.Providers.Anthropic/SharpClaw.Modules.Providers.Anthropic.csproj" />
+    <Project Path="src/SharpClaw.Modules.Providers.Google/SharpClaw.Modules.Providers.Google.csproj" />
+    <Project Path="src/SharpClaw.Modules.Providers.LlamaSharp/SharpClaw.Modules.Providers.LlamaSharp.csproj" />
+    <Project Path="src/SharpClaw.Modules.Providers.Ollama/SharpClaw.Modules.Providers.Ollama.csproj" />
     <Project Path="src/SharpClaw.Modules.Providers.OpenAICompatible/SharpClaw.Modules.Providers.OpenAICompatible.csproj" />
     <Project Path="src/SharpClaw.Providers.Common/SharpClaw.Providers.Common.csproj" />
+    <Project Path="src/SharpClaw.Providers.LocalCommon/SharpClaw.Providers.LocalCommon.csproj" />
   </Folder>
   <Folder Name="/tests/">
     <Project Path="tests/SharpClaw.ProviderIntegrations.Tests/SharpClaw.ProviderIntegrations.Tests.csproj" />
