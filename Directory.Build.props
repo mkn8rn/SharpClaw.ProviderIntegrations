@@ -1,0 +1,20 @@
+<Project>
+    <PropertyGroup>
+        <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+        <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <TargetFramework>net10.0</TargetFramework>
+        <Version>0.1.0-beta</Version>
+        <AssemblyVersion>0.1.0.0</AssemblyVersion>
+        <FileVersion>0.1.0.0</FileVersion>
+        <InformationalVersion>0.1.0-beta</InformationalVersion>
+        <Authors>mkn8rn</Authors>
+        <Company>SharpClaw</Company>
+        <RepositoryUrl>https://github.com/mkn8rn/SharpClaw.ProviderIntegrations</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageLicenseExpression>AGPL-3.0</PackageLicenseExpression>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <NoWarn>$(NoWarn);NU1507</NoWarn>
+    </PropertyGroup>
+</Project>
