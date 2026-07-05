@@ -3,7 +3,6 @@
         <PackageId>SharpClaw.Modules.Providers.LlamaSharp</PackageId>
         <Description>SharpClaw provider module that registers local GGUF inference through LLamaSharp.</Description>
         <PackageTags>SharpClaw;providers;llamasharp;llama;gguf;local;ai</PackageTags>
-        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
     </PropertyGroup>
 
     <ItemGroup>
